@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>首页</title>
+	<link type="text/css" rel="stylesheet" href="./css/demo(1).css" />
+	<script src="./js/demo.js"></script>
+	
+</head>
+<body>
+	<div class="top"></div>
+	<header class="head">
+		<div class="topNav">
+			<a href="#" class="zi">
+				Flat<span class="red">Lab</span>
+			</a>
+			<ul class="nav">
+				<li><a href="#" class="red1">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Service</a></li>
+				<li><a href="#">Feature</a></li>
+				<li><a href="#">Portfolio</a></li>
+				<li><a href="#">Price</a></li>
+				<li><a href="#">Blog</a></li>
+				<li><a href="#">Contact</a></li>
+				<li>
+					<input type="text" placeholder="Search" class="search" / >
+				</li>
+
+			</ul>
+
+
+		</div>
+	</header>	
+	
+<!--轮播图-->
+	<div class="banner" >
+		<img id="banner" src="./images/02.jpg" />
+		 <script>
+			var pic = document.getElementById('banner');
+			var	imgs = ['01.jpg', '02.jpg','01.jpg'];
+			var	i = 0; 
+				function my(){
+					pic.src = 'images/' + imgs[i];
+					i++;
+					if(i>=imgs.length){
+						i = 0;
+					}
+				}
+				var time = setInterval('my()' , 1000);
+
+		 </script>
+
+	</div>
+		<!-- 中间 -->
+	<div class="middle">
+		<h1>WELCOME TO FLATLAB - SHARED ON WEIDEA.NET</h1>
+		<p>Professional html Template Perfect for Admin Dashboard</p>		
+	</div>
+
+
+	<div class="bigbox">
+		<div class="box">
+			<section>
+				<div class="f-box">
+					<i class="icon">
+						
+					</i>
+					<h2>RESPONSIVE DESIGN</h2>
+				</div>
+				<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ablic jiener.</p>
+			</section>
+		</div>
+
+		<div class="box">
+			<section>
+				<div class="f-box red1">
+					<i class="icon1">
+						
+					</i>
+					<h2 class="red2">RESPONSIVE DESIGN</h2>
+				</div>
+				<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ablic jiener.</p>
+			</section>
+		</div>
+
+		<div class="box">
+			<section class="box7">
+				<div class="f-box">
+					<i class="icon2">
+						
+					</i>
+					<h2>RESPONSIVE DESIGN</h2>
+				</div>
+				<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ablic jiener.</p>
+			</section>
+		</div>
+	</div>	
+<!-- middle2 -->
+		  <div class="row">
+            <div class="quote">
+                <div class="col-lg-9 col-sm-9">
+                    <div class="quote-info">
+                        <h1>developer friendly code</h1>
+                        <p>Bundled with awesome features, UI resource unlimited colors, advanced theme options & much more!</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-3">
+                    <a href="#" class="btn btn-danger purchase-btn">Purchase now</a>
+                </div>
+            </div>
+        </div>
+<!-- middle3 -->
+	<div class="box1" style="clear:both">
+		<div class="box2">
+			<div class="tuk">
+				<div class="tu"></div>
+			</div>
+			<div class="box3">
+				<h1>FLAT & MODERN TREND DESIGN</h1>
+				<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ablic jiener. natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ablic jiener. natus error sit voluptatem accusantiu.</p>
+				<a href="#" class="proper">Purchase now</a>
+			</div>
+		</div>	
+	</div>
+		<!--middle4  -->
+		<div class="box5">
+			<section class="box8">
+				<header class="box6">
+					<ul>
+						<li class="zi1"><a href="#">News</a></li>
+						<li class="zi2"><a href="#">Events</a></li>
+						<li class="zi3"><a href="#">Notice board</a></li>
+					</ul>
+				</header>
+				<div>
+					<div>
+						<article>
+							<a href="#">
+								<img src="./images/product1.jpg">
+							</a>
+							<div>
+								<a href="#">News Tittle goes here</a>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</article>
+						<article>
+							<a href="#">
+								<img src="./images/product1.jpg">
+							</a>
+							<div>
+								<a href="#">News Tittle goes here</a>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</article>
+						<article>
+							<a href="#">
+								<img src="./images/product1.jpg">
+							</a>
+							<div>
+								<a href="#">News Tittle goes here</a>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</article>
+					</div>
+				</div>	
+
+
+
+
+			</section>	
+
+			<section>
+				<div></div>
+
+
+
+
+
+			</section>
+
+
+
+
+
+
+
+
+
+		</div>
+
+
+
+
+
+
+
+
+
+
+		<script>
+			function fresh(){
+				window.location.reload();
+			};
+			setTimeout('fresh()', 6000);
+		</script>
+</body>
+</html>
