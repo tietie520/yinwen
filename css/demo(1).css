@@ -18,7 +18,7 @@ a {
 
 
 
-p {line-height: 22px;color: #8a8b8b;}
+p {line-height: 22px;color: #8a8b8b;display: inline-block;}
 
 .top{
 	width: 728px;
@@ -242,7 +242,7 @@ section{
    margin-left: 58px;
 }
 .box1{
-	width: 1903px;
+	
 	height: 347px;
 	background-color: #F4F4F4;
 	padding: 100px 0;
@@ -299,10 +299,35 @@ section{
 	width: 1175px;
 	height: 286px;
 	margin: 0 auto;
+	
 }
 .box8{
-	width: 585px;
-	height: 286px;
+	width: 539px;
+	height: 239px;
+	margin-top:60px;
+	background:#F4F4F4;
+	float:left;
+}
+.box5 .box8 .box10{
+	width:523px;
+	height:180px;
+	padding:15px;
+}
+.box5 .box8 .box10 article a{
+	color:red;
+	font-size:14px;
+}
+article{
+	clear:both;
+}
+article img{
+	float:left;
+}
+article>div{
+	margin-left:66px;
+}
+.box10 .aa2,.aa3{
+	margin-top: 15px;
 }
 .box6{
 	width: 553px;
@@ -318,10 +343,32 @@ section{
 .box6 ul .zi1{
 	border-top: 1px solid #F4F4F4;
 	border-left: 1px solid #F4F4F4;
+	background: #F4F4F4;
+	line-height: 54px;
 }
-
-
-
+.box6 ul .zi2{
+	background: #6F6F6F;
+	line-height: 54px;
+}
+.box6 ul .zi3{
+	background: #6F6F6F;
+	margin-left: 1px;
+	line-height: 54px;
+}
+.box5 .bai{
+	float: left;
+	margin:60px 0px 0px 15px ;
+	width:555px;
+	height:220px;
+}
+.box5 .bai .child{
+	width:100px;
+	height:100px;
+	background: url(../images/avatar2.jpg);
+	border-radius:50%;
+	display: inline-block;
+	margin: 0 15px;
+}
 
 
 
