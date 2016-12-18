@@ -314,7 +314,7 @@ section{
 	padding:15px;
 }
 .box5 .box8 .box10 article a{
-	color:red;
+	color:#F77B6F;
 	font-size:14px;
 }
 article{
@@ -357,9 +357,10 @@ article>div{
 }
 .box5 .bai{
 	float: left;
-	margin:60px 0px 0px 15px ;
+	margin:60px 0px 0px 50px ;
 	width:555px;
 	height:220px;
+	position: relative;
 }
 .box5 .bai .child{
 	width:100px;
@@ -368,9 +369,35 @@ article>div{
 	border-radius:50%;
 	display: inline-block;
 	margin: 0 15px;
+	float: left;
+}
+.box5 .bai ._a{
+	display: inline-block;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 11px;
+    margin: 30px 0 8px 0;
+    color: #504946;
+    font-weight: 300;
+    float: left;
 }
 
-
+.box5 .gg{
+	width:515px;
+	height:62px;
+	background: #E9E9E9;
+	border-radius:5px;
+	clear:both;
+	padding:20px;
+	margin-top: 125px;
+}
+.bai .vv{
+	position: absolute;
+	top:44px;
+	left:131px;
+	color:#ababab;
+}
 
 
 
