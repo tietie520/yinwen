@@ -18,7 +18,7 @@ a {
 
 
 
-p {line-height: 22px;color: #8a8b8b;display: inline-block;}
+p {line-height: 22px;color: #8a8b8b;}
 
 .top{
 	width: 728px;
@@ -280,15 +280,15 @@ section{
      margin-top: 30px;
 }
 .box1 .proper{
-	width: 172px;
-	height: 42px;
+	width: 192px;
+	height: 62px;
 	font-size: 20px;
 	display: inline-block;
 	background: #475168;
     color: #fff;
     border-radius: 5px;
     text-align: center;
-    padding: 10px;
+    line-height: 62px;
     margin-top: 48px;
 }
 .proper:hover{
