@@ -572,7 +572,9 @@ article>div{
 	float:left;
 	margin: 0 10px 10px 14px;
 }
-
+.footer .div .div3 ul li>a{
+	display: inline-block;
+}
 
 
 
