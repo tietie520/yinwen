@@ -457,7 +457,7 @@ article>div{
 .container{
 	width:100%;
 	height:400px;
-	background: url(../images/flat_parallax.jpg);
+	background: url(../images/flat_parallax.jpg) no-repeat fixed 0 0 ;
 	background-size: cover;
 }
 .container .container1{
@@ -479,15 +479,19 @@ article>div{
 .logo{
 	width: 100%;
 	height: 160px;
-	
+	margin-top: 60px;
 }
 .logo .logo1{
 	width: 1170px;
 	height: 160px;
 	margin: 0 auto;
 }
+.logo .logo1 ul{
+	margin: 0px 0px 0px 120px;
+}
 .logo .logo1 ul li{
 	float: left;
+	margin: 0 30px;
 }
 
 
