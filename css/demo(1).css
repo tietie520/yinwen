@@ -493,13 +493,85 @@ article>div{
 	float: left;
 	margin: 0 30px;
 }
-
-
-
-
-
-
-
+.footer{
+	width: 100%;
+	height: 312px;
+	background: #475268;
+}
+.footer .div{
+	width: 1175px;
+	height: 312px;
+	margin: 0 auto;
+}
+.footer .div .div1{
+	width: 292.5px;
+	height:212px;
+	float: left;
+	margin-top: 40px;
+}
+.footer .div .div1 ul li>h1{
+	font-size: 20px;
+    font-weight: 400;
+    margin-top: 0;
+    color: #fff;
+    margin-bottom: 20px;
+    font-family: 'Fjalla One', sans-serif;
+}
+.footer .div .div1 ul li{
+	margin: 15px 0px;
+	
+}
+.footer .div .div1 ul li>p{
+	color: #fff;
+}
+.footer .div .div1 ul li p .redt{
+	color:#F37C6B;
+}
+.footer .div .div2{
+	width: 487.5px;
+	height: 60px;
+	float: left;
+	margin-top: 40px;
+}
+.footer .div .div2>h1{
+	font-size: 20px;
+    font-weight: 400;
+    margin-top: 0;
+    color: #fff;
+    margin:15px 0px 20px 0px;
+    font-family: 'Fjalla One', sans-serif;
+}
+.footer .div .div2>p{
+	color:#fff;
+	float: left;
+}
+.footer .div .div2>a{
+	float: left;
+}
+.footer .div .div2>a:hover{
+	color:#F37C6B;
+}
+.footer .div .div3{
+	width: 292.5px;
+	height: 162px;
+	float: left;
+	margin-top: 40px;
+}
+.footer .div .div3>h2{
+	font-size: 20px;
+    font-weight: 400;
+    margin-top: 0;
+    color: #fff;
+    margin:15px 0px 20px 0px;
+    font-family: 'Fjalla One', sans-serif;
+}
+.footer .div .div3 ul{
+	clear: both;
+}
+.footer .div .div3 ul li{
+	float:left;
+	margin: 0 10px 10px 14px;
+}
 
 
 
